@@ -1,17 +1,19 @@
 {
-  "name": "@example/starter",
-  "version": "0.0.1",
-  "private": true,
+  "name": "my-node-app",
+  "version": "1.0.0",
+  "main": "web/index.js",
+  "license": "UNLICENSED",
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview"
+    "shopify": "shopify",
+    "build": "shopify app build",
+    "dev": "shopify app dev",
+    "info": "shopify app info",
+    "generate": "shopify app generate",
+    "deploy": "shopify app deploy"
   },
-  "devDependencies": {
-    "@astrojs/preact": "^1.0.2",
-    "@astrojs/sitemap": "^1.0.0",
-    "@netlify/netlify-marketing-tokens": "^1.1.0",
-    "astro": "^2.0.0"
+  "dependencies": {
+    "@shopify/app": "^3.0.0",
+    "@shopify/cli": "^3.0.0",
+    "stripe": "^12.17.0"
   }
 }

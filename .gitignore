@@ -1,23 +1,28 @@
-# build output
-dist
-
-# dependencies
-node_modules/
-.snowpack/
-
-# logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# environment variables
+# Environment Configuration
 .env
-.env.production
+.env.*
 
-# macOS-specific files
+# Dependency directory
+node_modules
+
+# Test coverage directory
+coverage
+
+# Ignore Apple macOS Desktop Services Store
 .DS_Store
 
-_old/
+# Logs
+logs
+*.log
 
-# Local Netlify folder
-.netlify
+# ngrok tunnel file
+config/tunnel.pid
+
+# vite build output
+dist/
+
+# extensions build output
+extensions/*/build
+
+# Node library SQLite database
+web/database.sqlite
