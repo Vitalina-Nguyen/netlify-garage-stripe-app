@@ -4,9 +4,9 @@
   "private": true,
   "scripts": {
     "shopify": "shopify",
-    "dev": "shopify app dev",
+    "dev": "shopify app dev && astro dev",
     "start": "shopify app dev && astro dev",
-    "build": "shopify app build",
+    "build": "shopify app build && astro build",
     "preview": "shopify app dev && astro preview"
   },
   "devDependencies": {
