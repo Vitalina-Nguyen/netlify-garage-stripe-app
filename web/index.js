@@ -25,7 +25,7 @@ const app = express();
 const foo = async () => {
   const paymentIntent = await stripe.paymentIntents.create({
     amount: 2000,
-    currency: 'aed',
+    currency: "aed",
     automatic_payment_methods: {enabled: true},
   });
   console.log('paymentIntent: ', paymentIntent)
