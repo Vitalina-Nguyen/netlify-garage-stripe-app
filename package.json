@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "shopify": "shopify",
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
@@ -12,6 +13,9 @@
     "@astrojs/preact": "^1.0.2",
     "@astrojs/sitemap": "^1.0.0",
     "@netlify/netlify-marketing-tokens": "^1.1.0",
-    "astro": "^2.0.0"
+    "astro": "^2.0.0",
+    "@shopify/app": "^3.0.0",
+    "@shopify/cli": "^3.0.0",
+    "stripe": "^12.17.0"
   }
 }
