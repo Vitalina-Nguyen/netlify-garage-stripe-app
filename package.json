@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "shopify": "shopify",
     "dev": "shopify app dev && astro dev",
     "start": "shopify app dev && astro dev",
     "build": "shopify app build && astro build",
