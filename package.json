@@ -4,10 +4,10 @@
   "private": true,
   "scripts": {
     "shopify": "shopify",
-    "dev": "shopify app dev && astro dev",
-    "start": "shopify app dev && astro dev",
-    "build": "shopify app build && astro build",
-    "preview": "shopify app dev && astro preview"
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
   },
   "devDependencies": {
     "@astrojs/preact": "^1.0.2",
